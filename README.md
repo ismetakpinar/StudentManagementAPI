@@ -66,9 +66,4 @@ This project was built for learning and practicing:
 
 ---
 
-## ⭐ Future Improvements
 
-- JWT Authentication
-- Role-based authorization
-- Pagination & filtering
-- Docker support
