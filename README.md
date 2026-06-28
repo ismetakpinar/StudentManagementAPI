@@ -11,6 +11,7 @@ This project demonstrates modern backend development practices using **Clean Arc
 - Entity Framework Core
 - SQL Server
 - Repository Pattern
+- DTO (Data Transfer Object)
 - AutoMapper
 - FluentValidation
 - Dependency Injection
@@ -20,7 +21,7 @@ This project demonstrates modern backend development practices using **Clean Arc
 
 ## 📌 Features
 
-- Create, Read, Update, Delete (CRUD) operations
+- CRUD operations (Create, Read, Update, Delete)
 - Layered architecture (Repository Pattern)
 - DTO usage for clean data transfer
 - Input validation with FluentValidation
@@ -32,28 +33,40 @@ This project demonstrates modern backend development practices using **Clean Arc
 
 ## 🧠 Architecture
 
+
+Controller → Repository → Database
+
+
 ---
 
 ## ⚙️ Setup Instructions
 
-1. Clone the repository:,
+1. Clone the repository:
 
-2. Open in Visual Studio
+git clone https://github.com/ismetakpinar/StudentManagementAPI.git
+
+
+2. Open project in Visual Studio
 
 3. Update connection string in `appsettings.json`
 
 4. Run migrations:
+
 Update-Database
-6. Run the project
+
+
+5. Run the project
 
 ---
+
 ## 📌 Project Purpose
 
-This project was built for learning and practicing:
+This project was built to practice:
 
 - ASP.NET Core Web API
-- Clean backend architecture
-- Real-world API development standards
+- Clean architecture principles
+- Real-world backend development
+- Layered software design
 
 ---
 
@@ -61,9 +74,5 @@ This project was built for learning and practicing:
 
 **İsmet Akpınar**
 
-- GitHub: [github.com/ismetakpinar](https://github.com/ismetakpinar)
-- LinkedIn: [linkedin.com/in/ismetakpinar](https://linkedin.com/in/ismetakpinar)
-
----
-
-
+- GitHub: https://github.com/ismetakpinar  
+- LinkedIn: https://linkedin.com/in/ismetakpinar
