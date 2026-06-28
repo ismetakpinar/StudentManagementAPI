@@ -1,35 +1,19 @@
-# 🎓 Öğrenci Yönetim Sistemi API
+# Öğrenci Yönetim Sistemi API
 
-Bu proje, ASP.NET Core Web API (.NET 8) kullanılarak geliştirilmiş bir **Öğrenci Yönetim Sistemi** uygulamasıdır.
+ASP.NET Core Web API (.NET 8) ile geliştirilmiş bir öğrenci yönetim sistemidir.
 
-Modern backend geliştirme prensipleri kullanılarak katmanlı mimari ile tasarlanmıştır.
-
----
-
-## 🚀 Kullanılan Teknolojiler
-
-- ASP.NET Core Web API (.NET 8)
+## Teknolojiler
+- ASP.NET Core Web API
 - Entity Framework Core
-- SQL Server
 - Repository Pattern
-- DTO (Data Transfer Object)
-- AutoMapper
+- DTO & AutoMapper
 - FluentValidation
-- Dependency Injection
-- Swagger (API Dokümantasyonu)
 
----
+## Özellikler
+- CRUD işlemleri
+- Katmanlı mimari
+- Global exception handling
+- Validation sistemi
 
-## 📌 Özellikler
-
-- Öğrenci ekleme, silme, güncelleme ve listeleme (CRUD)
-- Katmanlı mimari (Repository Pattern)
-- DTO ile güvenli veri transferi
-- FluentValidation ile veri doğrulama
-- Global exception handling (hata yönetimi)
-- RESTful API yapısı
-- Swagger ile API test desteği
-
----
-
-## 🧠 Mimari Yapı
+## GitHub
+https://github.com/ismetakpinar/StudentManagementAPI
